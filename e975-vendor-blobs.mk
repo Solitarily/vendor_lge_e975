@@ -19,6 +19,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/e975/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
     vendor/lge/e975/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/lge/e975/proprietary/lib/libgemini.so:system/lib/libgemini.so \
+    vendor/lge/e975/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/lge/e975/proprietary/lib/libmercury.so:system/lib/libmercury.so \
     vendor/lge/e975/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
     vendor/lge/e975/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
@@ -111,7 +112,9 @@ PRODUCT_COPY_FILES += \
     vendor/lge/e975/proprietary/lib/libxml.so:system/lib/libxml.so \
     vendor/lge/e975/proprietary/lib/lib_dlb_msd.so:system/lib/lib_dlb_msd.so \
     vendor/lge/e975/proprietary/lib/libWVphoneAPI.so:system/lib/libWVphoneAPI.so \
+    vendor/lge/e975/proprietary/lib/hw/flp.msm8960.so:system/lib/hw/flp.msm8960.so \
     vendor/lge/e975/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
+    vendor/lge/e975/proprietary/lib/hw/gps.msm8960.so:system/lib/hw/gps.msm8960.so \
     vendor/lge/e975/proprietary/lib/hw/nfc.default.so:system/lib/hw/nfc.default.so \
     vendor/lge/e975/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
     vendor/lge/e975/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
@@ -164,6 +167,11 @@ PRODUCT_COPY_FILES += \
     vendor/lge/e975/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
     vendor/lge/e975/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
     vendor/lge/e975/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
+    vendor/lge/e975/proprietary/vendor/lib/libloc_api_v02.so:system/vendor/lib/libloc_api_v02.so \
+    vendor/lge/e975/proprietary/vendor/lib/libloc_ds_api.so:system/vendor/lib/libloc_ds_api.so \
     vendor/lge/e975/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
     vendor/lge/e975/proprietary/lib/liblgftmitem.so:system/lib/liblgftmitem.so \
-    vendor/lge/e975/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so
+    vendor/lge/e975/proprietary/lib/libgeofence.so:system/lib/libgeofence.so \
+    vendor/lge/e975/proprietary/lib/libizat_core.so:system/lib/libizat_core.so \
+    vendor/lge/e975/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
+    vendor/lge/e975/proprietary/lib/libloc_core.so:system/lib/libloc_core.so
